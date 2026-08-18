@@ -11,9 +11,9 @@ cuda_compiler_version:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '14'
+- '15'
 docker_image:
-- quay.io/condaforge/linux-anvil-ppc64le:alma9
+- quay.io/condaforge/linux-anvil-ppc64le:alma10
 fftw:
 - '3'
 libblas:
@@ -21,13 +21,13 @@ libblas:
 liblapack:
 - 3.9.* *netlib
 libtorch:
-- '2.7'
+- '2.12'
 mpi:
 - openmpi
 mpich:
 - '4'
 openmpi:
-- '4'
+- '5'
 target_platform:
 - linux-ppc64le
 zip_keys:
